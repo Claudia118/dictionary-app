@@ -1,11 +1,14 @@
-
-.App-header{
-  background: #a2c11c; 
+.App-header {
+  background: #a2c11c;
 }
-
 
 .App-logo {
   max-width: 200px;
   display: block;
   margin: 0 10px;
+}
+
+.App footer {
+  text-align: center;
+  margin: 30px 0;
 }

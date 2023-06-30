@@ -1,4 +1,5 @@
 import logo from "./logo.png";
+import Dictionary from "./Dictionary";
 import "./App.css";
 
 export default function App() {
@@ -7,7 +8,13 @@ export default function App() {
       <header className="App-header">
         <img src={logo} alt="logo" className="App-logo" />
       </header>
-      hello
+      
+      <div className="container">
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="text-center">Coded by Claudia Ortiz</footer>
+      </div>
     </div>
   );
 }
