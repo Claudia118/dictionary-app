@@ -40,10 +40,14 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <section>
+          <h1>What word do you want to look up?</h1>
           <form onSubmit={handelSubmit}>
-            <input type="search" onChange={handelSearch} />
+            <input
+              type="search"
+              defaultValue={props.defaultKeyword}
+              onChange={handelSearch}
+            />
           </form>
-          <div className="hint">Suggested words: yoga, wine, sunset...</div>
         </section>
         <Results results={results} />
       </div>
