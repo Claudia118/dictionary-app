@@ -1,5 +1,9 @@
-.App-header {
+body {
   background: #a2c11c;
+}
+
+a {
+  color: #a2c11c;
 }
 
 .App-logo {
