@@ -1,6 +1,7 @@
 import React from "react";
 import Meaning from "./Meaning";
 import Phonetic from "./Phonetic";
+import Collapsible from "react-collapsible";
 
 import "./Results.css";
 
@@ -22,7 +23,9 @@ export default function Results(props) {
         {props.results.meanings.map(function (meaning, index) {
           return (
             <section key={index}>
-              <Meaning meaning={meaning} />
+              <Collapsible trigger="Denenition">
+                <Meaning meaning={meaning} />
+              </Collapsible>
             </section>
           );
         })}

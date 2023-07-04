@@ -4,3 +4,13 @@
   line-height: 1.5;
   text-transform: capitalize;
 }
+
+.Collapsible {
+  background-color: #fff;
+  font-size: 20px;
+}
+
+.Collapsible__trigger{
+  font-weight: bold;
+  text-decoration: underline;
+}
