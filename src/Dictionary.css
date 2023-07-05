@@ -22,3 +22,9 @@
   border: 1px solid #a19d9d;
 }
 
+
+@media (max-width: 768px){
+  .Dictionary h1{
+     font-size: 25px;
+  }
+}
