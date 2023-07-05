@@ -23,7 +23,7 @@ export default function Results(props) {
         {props.results.meanings.map(function (meaning, index) {
           return (
             <section key={index}>
-              <Collapsible trigger="Denenition">
+              <Collapsible trigger="Definition">
                 <Meaning meaning={meaning} />
               </Collapsible>
             </section>
