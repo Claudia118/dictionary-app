@@ -13,7 +13,17 @@ export default function App() {
         <main>
           <Dictionary defaultKeyword={"wine"} />
         </main>
-        <footer className="text-center">Coded by Claudia Ortiz</footer>
+        <footer className="text-center footer">
+          Coded by Claudia Ortiz and is open source{" "}
+          <a
+            href="https://github.com/Claudia118/dictionary-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            Github
+          </a>
+        </footer>
       </div>
     </div>
   );

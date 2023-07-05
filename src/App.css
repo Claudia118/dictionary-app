@@ -20,4 +20,9 @@ a {
 .App footer {
   text-align: center;
   margin: 30px 0;
+  font-weight: 400;
+}
+
+.App .footer a{
+  color: #fff;
 }

@@ -8,6 +8,7 @@
  - verbs 
  - sentence examples
  - synonyms
+ - audio
 
 ## Pexels API Description
 The application uses [pexels] (https://www.pexels.com/api/) to retrive images related to the word being search.
